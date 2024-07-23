@@ -57,9 +57,28 @@ const Essays = () => {
             <SingleEssay
                 question={`Q3: What is the difference between JQuery and React?`}
             >
-                Answer goes here.
+                <p>
+                    <b>React:</b> uses a virtual DOM (document object model),
+                    making it more efficient. It is preferable for large and
+                    extensive projects since the structure is split into
+                    components, making codebases more maintainable. React has a
+                    JS syntax extension called JSX that allows JS, CSS, and HTML
+                    to be combined into single files grouped by component.
+                    Additionally, user interfaces are automatically updated when
+                    data is changed.
+                </p>
+                <p>
+                    <b>jQuery:</b> uses a traditional DOM, so updates travel
+                    across the entire tree, starting from the root. This takes
+                    more time, particularly for complex updates. jQuery also
+                    uses native JS methods. User interfaces are not
+                    automatically updated when data is changed–for every element
+                    needs to be manually updated with additional lines of code.
+                </p>
             </SingleEssay>
-            <SingleEssay question={`Q4: Sample Question...`}>
+            <SingleEssay
+                question={`Q4: What is the difference between a Front-End and Back-End Developer?`}
+            >
                 Answer goes here.
             </SingleEssay>
         </EssaysStyled>
