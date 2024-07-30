@@ -79,6 +79,25 @@ const Essays = () => {
             <SingleEssay
                 question={`Q4: What is the difference between a Front-End and Back-End Developer?`}
             >
+                <p>
+                    <b>Front-End developers:</b> work on the user interface,
+                    which includes visual elements such as buttons, checkboxes,
+                    and graphics. This involves building the DOM using HTML,
+                    CSS, and JS. The front-end can handle fundamental user
+                    interactions, but passes complex requests to the backend.
+                </p>
+                <p>
+                    <b>Back-End developers:</b> work on the infrastructure that
+                    stores and processes data and makes an application work. The
+                    back-end (also known as the server side) processes requests
+                    from the front-end and returns a response. Back-end
+                    developers can use NodeJS, Java, Python, or PHP (Hypertext
+                    Preprocessor).
+                </p>
+            </SingleEssay>
+            <SingleEssay
+                question={`Q5: In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?`}
+            >
                 Answer goes here.
             </SingleEssay>
         </EssaysStyled>
