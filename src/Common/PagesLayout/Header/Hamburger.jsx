@@ -15,7 +15,7 @@ export default Hamburger;
 
 // prop-types
 Hamburger.propTypes = {
-    prop: PropTypes.func.isRequired,
+    toggle: PropTypes.func.isRequired,
 };
 
 const HamburgerStyled = styled.div`
