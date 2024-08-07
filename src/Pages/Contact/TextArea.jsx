@@ -5,7 +5,7 @@ const TextArea = ({ id, labelText, onChange }) => {
     return (
         <TextAreaStyled className="input-group">
             <label htmlFor={id}>{labelText}</label>
-            <TextArea id={id} value={id} onChange={onChange} />
+            <textarea id={id} value={id} onChange={onChange} />
         </TextAreaStyled>
     );
 };
