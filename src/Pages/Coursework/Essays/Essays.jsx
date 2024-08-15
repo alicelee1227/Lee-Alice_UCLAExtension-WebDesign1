@@ -128,6 +128,45 @@ const Essays = () => {
             <SingleEssay
                 question={`Q6: What is the difference between jpg, gif, png and svg images?`}
             >
+                <p>
+                    <b>JPG (Joint Photographic Experts Group):</b> images tend
+                    to have smaller file sizes as any unneeded information not
+                    detectable by the human eye is deleted. Lossy compression is
+                    used, so that quality degrades when photos are saved
+                    multiple times. This allows for faster load times but can
+                    make for poorer quality images. They do not support
+                    transparent backgrounds or animation but can support
+                    millions of colors.
+                </p>
+                <p>
+                    <b>GIF (Graphics Interchange Format):</b> images are
+                    generally used for displaying animations. They support a
+                    limited color palette (up to 256 colors) and are not ideal
+                    for static images. Alpha transparency (transparency with a
+                    gradation) is not supported, although transparency itself
+                    (as an “on/off switch”) is.
+                </p>
+                <p>
+                    <b>PNG (Portable Networks Graphics):</b> images have better
+                    image quality than JPG images, but have a larger file size.
+                    They support transparent backgrounds (alpha transparency)
+                    and can be resaved multiple times without degrading in
+                    quality (lossless compression). PNGs can support millions of
+                    colors or 256 colors, depending on which channel is used
+                    (PNG-24 vs PNG-8).
+                </p>
+                <p>
+                    <b>SVG (Scalable Vector Graphics):</b> images can be scaled
+                    to any size without losing quality, unlike the other image
+                    types. They are created using code that defines the color,
+                    shape, and size of image elements, making them best for
+                    simple icons and line drawings. You can target these images
+                    using JS and CSS since they are written in XML.
+                </p>
+            </SingleEssay>
+            <SingleEssay
+                question={`Q7: Define the following Agile roles: Product Manager, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps.`}
+            >
                 <p>Answer goes here.</p>
             </SingleEssay>
         </EssaysStyled>
