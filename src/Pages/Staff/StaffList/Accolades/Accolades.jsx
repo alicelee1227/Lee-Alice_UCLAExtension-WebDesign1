@@ -5,9 +5,10 @@ import AccoladeItem from "./AccoladeItem";
 const Accolades = ({ accolades }) => {
     return (
         <AccoladesStyled>
-            {accolades.map((accolade, idx) => {
+            {/* {accolades.map((accolade, idx) => {
                 return <AccoladeItem key={idx} accolade={accolade} />;
-            })}
+            })} */}
+            {accolades}
         </AccoladesStyled>
     );
 };
@@ -16,10 +17,12 @@ export default Accolades;
 
 // prop-types
 Accolades.propTypes = {
-    accolades: PropTypes.array.isRequired,
+    accolades: PropTypes.string.isRequired,
 };
 
-const AccoladesStyled = styled.ul`
-    padding-left: 20px;
-    list-style-type: disc;
+const AccoladesStyled = styled.div`
+    //padding-left: 20px;
+    //list-style-type: disc;
+    font-size: 14px;
+    color: #181c48;
 `;

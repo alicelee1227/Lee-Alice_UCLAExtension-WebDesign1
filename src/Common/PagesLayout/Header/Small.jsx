@@ -32,6 +32,7 @@ export default Small;
 const SmallStyled = styled.div`
     display: flex;
     justify-content: center;
+    background-color: #c9d3f3;
 
     .SiteLogo {
         height: 300px;
@@ -49,18 +50,18 @@ const SmallStyled = styled.div`
 
         z-index: 100;
 
-        background-color: #034444;
+        background-color: #c9d3f3;
         a {
             display: block;
             padding: 10px;
-            border-bottom: solid 1px #999999;
-            color: white;
+            border-bottom: solid 1px #95a1c3;
+            color: #272d6e;
             text-decoration: none;
 
             &:hover,
             &:active,
             &:focus {
-                background-color: #002a2a;
+                background-color: #abb7dc;
             }
         }
     }

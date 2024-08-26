@@ -26,7 +26,8 @@ const MediumLarge = () => {
 export default MediumLarge;
 
 const MediumLargeStyled = styled.header`
-    color: white;
+    color: #c9d3f3;
+    background-color: #c9d3f3;
 
     .logo {
         .SiteLogo {
@@ -39,17 +40,17 @@ const MediumLargeStyled = styled.header`
     nav {
         text-align: center;
         a {
-            width: 80px;
+            width: 100px;
             display: inline-block;
 
             line-height: 30px;
             margin: 0px 0px 20px 5px;
-            border-bottom: solid 3px #84d4d4;
+            /* border-bottom: solid 3px #272d6e; */
 
             text-align: center;
             font-size: 12px;
             opacity: 0.8;
-            color: #84d4d4;
+            color: #181c48;
             font-weight: bold;
             text-decoration: none;
             text-transform: uppercase;
@@ -61,8 +62,8 @@ const MediumLargeStyled = styled.header`
             }
 
             &.active {
-                color: white;
-                border-bottom-color: white;
+                color: #4a53b5;
+                /* border-bottom-color: white; */
             }
         }
     }

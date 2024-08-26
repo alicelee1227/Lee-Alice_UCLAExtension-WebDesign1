@@ -32,4 +32,8 @@ const Contact = () => {
 
 export default Contact;
 
-const ContactStyled = styled.div``;
+const ContactStyled = styled.div`
+    h1 {
+        color: #181c48;
+    }
+`;

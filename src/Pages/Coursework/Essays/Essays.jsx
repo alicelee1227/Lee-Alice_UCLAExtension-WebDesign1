@@ -167,7 +167,57 @@ const Essays = () => {
             <SingleEssay
                 question={`Q7: Define the following Agile roles: Product Manager, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps.`}
             >
-                <p>Answer goes here.</p>
+                <p>
+                    Agile development is a strategy that counters Waterfall
+                    development. It prioritizes collaboration and flexible,
+                    iterative, incremental development, preventing silos from
+                    forming between stakeholders.
+                </p>
+                <p>
+                    <b>Product Managers:</b> define the strategic vision and
+                    requirements used by the rest of the team to execute a
+                    product. They do this by assessing a project’s feasibility,
+                    goals, and demand. They collaborate with stakeholders by
+                    acting as the main conduit between team members, and also
+                    act as a voice for users.{" "}
+                </p>
+                <p>
+                    <b>Scrum Masters:</b> lead the scrum teams, coordinating
+                    team members to help them build and improve a product. They
+                    act as a bridge between team members, help address
+                    obstacles, and maintain accountability.{" "}
+                </p>
+                <p>
+                    <b>UX Designers:</b> focus on making the users’ interaction
+                    with the product as enjoyable as possible, using a
+                    human-centered approach to create solutions for users’ pain
+                    points. They do this by conducting research, crafting user
+                    stories, and creating prototypes to ensure user flows are
+                    clear and smooth.{" "}
+                </p>
+                <p>
+                    <b>Developers/Engineers:</b> work to implement, test, and
+                    maintain designs. This often includes coding and building
+                    software.{" "}
+                </p>
+                <p>
+                    <b>
+                        QA (Quality Assurance)/SDET (Software Development
+                        Engineer in Test):
+                    </b>{" "}
+                    roles test and evaluate the product at the end of the
+                    development process to ensure it does not have any
+                    bugs/errors and accomplishes the intended goal and performs
+                    at a high level. QA typically only does evaluating, no
+                    programming. SDET typically involves programming.{" "}
+                </p>
+                <p>
+                    <b>DevOps (Development + Operations):</b> is a methodology
+                    that combines software development and IT operations. Its
+                    practices intend to improve products in an accelerated and
+                    automated way, allowing companies to better tend to
+                    customers’ needs.
+                </p>
             </SingleEssay>
         </EssaysStyled>
     );

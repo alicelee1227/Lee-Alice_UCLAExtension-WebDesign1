@@ -7,7 +7,7 @@ const Staff = () => {
     return (
         <StaffStyled>
             <Inset>
-                <h1>Staff</h1>
+                <h1>Work</h1>
                 <StaffList />
             </Inset>
         </StaffStyled>
@@ -16,4 +16,8 @@ const Staff = () => {
 
 export default Staff;
 
-const StaffStyled = styled.div``;
+const StaffStyled = styled.div`
+    h1 {
+        color: #181c48;
+    }
+`;
